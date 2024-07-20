@@ -26,7 +26,7 @@
 
 
 ### :running: Run Locally
-Just invoke is TelegramAuth.isValid() method and put the initData (it is a string from window.Telegram.WebApp object, you can find doc <a href="https://core.telegram.org/bots/webapps#initializing-mini-apps">here</a> )
+Call the TelegramAuth.isValid() method and put the initData (it is a string from window.Telegram.WebApp object, you can find doc <a href="https://core.telegram.org/bots/webapps#initializing-mini-apps">here</a> )
 
 Download release TelegramDataValidation.jar file from <a href="https://github.com/tofitaV/TelegramDataValidation/releases/tag/release">release section</a> 
 
@@ -36,7 +36,7 @@ Move this file to your project and run this maven goal
 mvn install:install-file -Dfile=TelegramDataValidation.jar -DgroupId=org.tg.auth  -DartifactId=telegram-auth -Dversion=1.0 -Dpackaging=jar
 ```
 
-Add dependency
+Add dependency to your pom.xml
 
 ```xml
 <dependency>
@@ -45,8 +45,6 @@ Add dependency
   <version>1.0</version>
 </dependency>
 ```
-
-Call isValid() method
 
 ```bash
 bool result = TelegramAuth.isValid(telegramInitData, botToken)
