@@ -26,7 +26,7 @@
 
 
 ### :running: Run Locally
-
+Just invoke is TelegramAuth.isValid() method and put the initData (it is a string from window.Telegram.WebApp object, you can find doc here https://core.telegram.org/bots/webapps#initializing-mini-apps)
 Clone the project
 
 ```bash
