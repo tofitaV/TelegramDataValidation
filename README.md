@@ -22,7 +22,6 @@
 ### :bangbang: Prerequisites
 
 - Java 11+
-- commons-codec 1.15 from apache
 
 
 ### :running: Run Locally
