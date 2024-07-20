@@ -12,11 +12,6 @@
 - [About the Project](#star2-about-the-project)
 
 
-## :star2: About the Project
-<details> <summary>Server</summary> <ul>
-<li><a href="">Java 11+</a></li>
-</ul> </details>
-
 ## :toolbox: Getting Started
 
 ### :bangbang: Prerequisites
