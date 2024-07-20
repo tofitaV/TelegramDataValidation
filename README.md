@@ -38,11 +38,13 @@ mvn install:install-file -Dfile=TelegramDataValidation.jar -DgroupId=org.tg.auth
 
 Add dependency
 
+```xml
 <dependency>
   <groupId>org.tg.auth</groupId>
   <artifactId>telegram-auth</artifactId>
   <version>1.0</version>
 </dependency>
+```
 
 Call isValid() method
 
