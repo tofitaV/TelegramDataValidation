@@ -47,13 +47,13 @@ Add dependency to your pom.xml
 ```
 
 ```bash
-bool result = TelegramAuth.isValid(telegramInitData, botToken)
+boolean result = TelegramAuth.isValid(telegramInitData, botToken)
 ```
 
 or
 
 ```bash
-import static org.telegram.auth.TelegramAuth.isValid;
+import static org.tg.auth.TelegramAuth.isValid;
 
 boolean result = isValid(telegramInitData, botToken)
 ```
