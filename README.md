@@ -38,7 +38,7 @@ https://github.com/tofitaV/TelegramDataValidation
 bool result = TelegramAuth.isValid(telegramInitData, botToken)
 ```
 
-or 
+or
 
 ```bash
 import static org.telegram.auth.TelegramAuth.isValid;
